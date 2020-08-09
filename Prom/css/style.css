@@ -1,0 +1,73 @@
+.top_header {
+  background: linear-gradient(to left, #edc142, #edc142);
+  text-align: center;
+  margin: 0;
+  padding: 0px 60px;
+}
+
+.header_container {
+  background: linear-gradient(135deg,#39427f,#53165f);
+  margin-top: -4px;
+}
+
+.left_nav {
+  display: inline-block;
+  color: white;
+  padding: 10.5px 60px;
+}
+
+.left_nav ul li {
+  display: inline;
+  padding-right: 35px;
+}
+
+.language  a {
+    color: white;
+    text-decoration: none;
+}
+
+.language a:focus {
+  color: grey;
+}
+
+.help a {
+  color: white;
+  text-decoration: none;
+}
+
+.right_nav {
+  float: right;
+  padding: 10.5px 60px;
+}
+
+ .right_nav ul li a {
+   color: white;
+   text-decoration:none;
+   float:right;
+   padding-left: 35px;
+}
+
+ .right_nav ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+
+.color {
+  background: linear-gradient(135deg,#4854a2,#772088);
+}
+
+.header_btn {
+  height: 56px;
+  display: inline-block;
+}
+
+.prom_img img {
+  width: 95px;
+  height: 30px;
+  padding: 15px 60px;
+}
+
+.catalog {
+  display: inline;
+  padding: 15px 60px;
+}
