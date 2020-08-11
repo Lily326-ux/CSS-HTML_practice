@@ -134,3 +134,19 @@
 font-size: 20px;
 text-decoration: none;
 }
+
+.exit {
+  display: inline-block;
+  margin-left: 25px;
+  vertical-align: super;
+
+}
+
+.exit button {
+  padding-top: 7px;
+  height: 40px;
+  width:80px;
+  border: 1px solid var(  --white_clr);
+  background-color: var(--gradient_color_3);
+  color:  var(  --white_clr);
+}
