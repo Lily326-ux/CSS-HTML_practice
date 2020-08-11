@@ -4,6 +4,7 @@
   --gradient_color_3:linear-gradient(135deg,#4854a2,#772088);
   --white_clr:white;
   --gray_clr:gray;
+  --black_clr:black;
 }
 
 
@@ -17,6 +18,7 @@
   background: var(--gradient_color_1);
   text-align: center;
   margin: 0;
+  margin-bottom: 100px;
 }
 
 .container_for_navigation {
@@ -131,8 +133,8 @@
 }
 
 .icon ul li a {
-font-size: 20px;
-text-decoration: none;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .exit {
@@ -149,4 +151,21 @@ text-decoration: none;
   border: 1px solid var(  --white_clr);
   background-color: var(--gradient_color_3);
   color:  var(  --white_clr);
+}
+
+.footer {
+  display: inline-block;
+}
+
+
+.footer ul li {
+  list-style-position: outside;
+  list-style: outside none none;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--black_clr);
+
 }
