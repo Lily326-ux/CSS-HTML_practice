@@ -209,6 +209,12 @@
 .navigation {
    margin-top: 40px;
    margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.nav_icon {
+  display: inline-block;
 }
 
 .youtube {
@@ -241,4 +247,13 @@
 .app_store {
    display: inline-block;
    margin-left: 5px;
+}
+
+.prom2020 {
+  margin-left: 520px;
+}
+
+.prom2020 i{
+  text-decoration: none;
+  font-size: 13px;
 }
