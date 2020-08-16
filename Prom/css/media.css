@@ -1,3 +1,29 @@
-@media screen and (max-width:1240px;) {
+@media (min-width:1201px) {
+   body {
+     background: green;
+   }
+}
 
+@media (max-width: 1200px) and (min-width: 992px) {
+    body {
+        background: blue;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    body {
+        background: red;
+    }
+}
+
+@media (max-width:767px) and (min-width: 576px) {
+   body {
+     background: yellow;
+   }
+}
+
+@media (max-width:575px) {
+   body {
+     background: pink;
+   }
 }
