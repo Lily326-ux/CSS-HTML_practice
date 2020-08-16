@@ -10,20 +10,39 @@
 
 
 .container{
-   width: 1218px;
+   width: 70%;
    margin:0 auto;
 }
 
+.burger-nav {
+   display: none;
+   height: 40px;
+   width: 40px;
+   cursor: pointer;
+}
+
+.burger-nav .burger-inner {
+   display: block;
+   width: 100%;
+   height: 8px;
+   background-color: pink;
+   margin: 5px 0px;
+}
 
 .top_header {
    background: var(--gradient_color_1);
    text-align: center;
-   margin: 0;
+   margin: 0 auto;
+}
+
+.top_header img {
+   width: 80%;
+   margin: 0 auto;
+   vertical-align: middle;
 }
 
 .container_for_navigation {
    background: var(--gradient_color_2);
-   margin-top: -4px;
    padding: 10.5px 0px;
 }
 
@@ -75,7 +94,7 @@
    display: inline-block;
 }
 
-.bg_color {
+/* .bg_color {
    background: var(--gradient_color_3);
 }
 
@@ -253,4 +272,5 @@
 .prom2020 p{
   text-decoration: none;
   font-size: 13px;
-}
+} */
+ 
