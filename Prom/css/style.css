@@ -10,7 +10,7 @@
 
 
 .container{
-   width: 70%;
+   width: 95%;
    margin:0 auto;
 }
 
@@ -94,7 +94,7 @@
    display: inline-block;
 }
 
-/* .bg_color {
+ .bg_color {
    background: var(--gradient_color_3);
 }
 
@@ -180,7 +180,7 @@
    color:  var(  --white_clr);
 }
 
-.footer {
+/*.footer {
    margin-top: 315px;
 }
 
@@ -273,4 +273,3 @@
   text-decoration: none;
   font-size: 13px;
 } */
- 

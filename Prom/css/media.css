@@ -1,5 +1,16 @@
-@media (min-width:1201px) {
+@media (min-width:1274px) {
+  .container {
+   width: 95%;
+ }
+}
 
+@media (max-width:1273px) and (min-width:1201px) {
+  .container {
+   width: 95%;
+ }
+ .search input {
+    width: 495px;
+ }
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
@@ -19,6 +30,7 @@
 
   .container {
     width: 90%;
+   text-align: center;
   }
 
   .left_nav {
@@ -41,7 +53,7 @@
   .container {
     width: 95%;
   }
-  
+
   .top_header {
     display: none;
   }
