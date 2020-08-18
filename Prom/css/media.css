@@ -6,21 +6,101 @@
 
 @media (max-width:1273px) and (min-width:1201px) {
   .container {
-   width: 95%;
+   width: 90%;
  }
- .search input {
-    width: 495px;
+
+  .search {
+    width: 490px;
  }
+
+  .bg_color {
+   text-align: center;
+ }
+
+  .choose_city select  {
+    margin-left: 15px;
+    width: 140px;
+ }
+
+  .icon ul li {
+    margin-left: 30px;
+ }
+
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
+  .container {
+   width: 95%;
+ }
 
+  .search {
+     width: 380px;
+  }
+
+  .choose_city select  {
+     margin-left: 15px;
+     width: 140px;
+  }
+
+  .bg_color {
+   text-align: center;
+  }
+
+  .icon ul li {
+     margin-left: 20px;
+  }
+
+  .footer ul li a {
+    font-size: 11px;
+  }
+
+  .footer ul:last-child {
+     margin-left: 50px;
+  }
+
+  .footer ul:nth-last-child(2) {
+     margin-left: 40px;
+  }
+
+  .prom2020 {
+    width: 40%;
+    text-align: right;
+  }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
- .container {
+  .container {
    width: 90%;
- }
+  }
+
+  .search {
+    width: 260px;
+  }
+
+  .bg_color {
+  text-align: center;
+  }
+
+  .icon ul li {
+    margin-left: 10px;
+  }
+
+  .icon ul li:first-child{
+    display: none;
+  }
+
+  .icon ul li:nth-child(2){
+    display: none;
+  }
+
+  .exit {
+     margin-left: 10px;
+  }
+
+  .choose_city select  {
+     margin-left: 15px;
+     width: 120px;
+  }
 }
 
 @media (max-width:767px) and (min-width: 576px) {
@@ -30,7 +110,7 @@
 
   .container {
     width: 90%;
-   text-align: center;
+    text-align: center;
   }
 
   .left_nav {
@@ -41,11 +121,50 @@
     float: none;
   }
 
- .right_nav ul li a {
+  .right_nav ul li a {
     color:var(--white_clr);
     text-decoration:none;
     padding-left: 10px;
     font-size: 16px;
+  }
+
+  .search {
+    width: 175px;
+  }
+
+  .bg_color {
+  text-align: center;
+  }
+
+  .icon ul li {
+    margin-left: 10px;
+  }
+
+  .icon ul li:first-child{
+    display: none;
+  }
+
+  .icon ul li:nth-child(2){
+    display: none;
+  }
+
+  .exit {
+     margin-left: 10px;
+  }
+
+  .exit button {
+     height: 37px;
+     width:60px;
+  }
+
+  .choose_city select  {
+     margin-left: 10px;
+     width: 85px;
+  }
+
+  .prom_img img {
+     width: 80px;
+     height: 28px;
   }
 }
 
@@ -75,4 +194,49 @@
     padding: 0px;
   }
 
+  .search {
+    width: 120px;
+    margin-left: 10px;
+    font-size: 10px;
+  }
+
+  .button_magnifier {
+     padding: 7px 0px 6px 0px;
+     margin-left: -4px;
+  }
+
+  .bg_color {
+  text-align: center;
+  }
+
+  .icon ul li:first-child{
+    display: none;
+  }
+
+  .icon ul li:nth-child(2){
+    display: none;
+  }
+
+  .icon ul li:last-child{
+    display: none;
+  }
+
+  .exit {
+     margin-left: 6px;
+  }
+
+  .exit button {
+     height: 35px;
+     width:45px;
+     font-size: 11px;
+  }
+
+  .choose_city select  {
+     display: none;
+  }
+
+  .prom_img img {
+     width: 65px;
+     height: 30px;
+  }
 }
