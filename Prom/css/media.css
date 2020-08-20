@@ -2,6 +2,18 @@
   .container {
    width: 95%;
  }
+
+  .bg_color {
+  text-align: center;
+ }
+
+ .in_one_line {
+   text-align: center;
+ }
+
+ .navigation {
+   text-align: center;
+ }
 }
 
 @media (max-width:1273px) and (min-width:1201px) {
@@ -236,7 +248,11 @@
   }
 
   .prom_img img {
-     width: 65px;
-     height: 30px;
+     width: 75px;
+     height: 25px;
+  }
+
+  .footer {
+    display: none;
   }
 }
