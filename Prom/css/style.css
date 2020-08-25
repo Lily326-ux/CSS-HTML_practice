@@ -181,7 +181,9 @@
 }
 
 .footer {
-   margin-top: 315px;
+   margin-top: 350px;
+   display: flex;
+   justify-content: space-around;
 }
 
 .footer ul {
@@ -194,13 +196,6 @@
    margin-left: 0px;
 }
 
-.footer ul:last-child {
-   margin-left: 95px;
-}
-
-.footer ul:nth-last-child(2) {
-   margin-left: 90px;
-}
 
 .footer ul li {
    list-style-position: outside;
@@ -229,6 +224,7 @@
 
 .nav_icon {
   display: inline-block;
+  width: 20%;
 }
 
 .youtube {
@@ -243,7 +239,7 @@
 
 .facebook {
    display: inline-block;
-   padding: 0px 175px 0px 25px;
+   padding: 0px 0px 0px 25px;
 }
 
 .facebook a i {
