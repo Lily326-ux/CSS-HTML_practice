@@ -113,6 +113,23 @@
      margin-left: 15px;
      width: 120px;
   }
+
+  .facebook {
+    padding: 0px 78px 0px 10px;
+  }
+
+  .in_one_line ul:first-child {
+    margin-left: px;
+  }
+
+  .in_one_line ul:nth-child(4) {
+    margin-top: 45px;
+    margin-left: 180px;
+  }
+
+  .in_one_line ul:last-child {
+    margin-top: 45px;
+  }
 }
 
 @media (max-width:767px) and (min-width: 576px) {
@@ -166,7 +183,19 @@
 
   .exit button {
      height: 37px;
-     width:60px;
+     width:59px;
+  }
+
+  .in_one_line ul:last-child {
+    display: none;
+  }
+
+  .in_one_line ul:nth-child(3) {
+    margin-top: 35px;
+  }
+
+  .in_one_line ul:nth-child(4) {
+    margin-top: 35px;
   }
 
   .choose_city select  {
@@ -177,6 +206,14 @@
   .prom_img img {
      width: 80px;
      height: 28px;
+  }
+
+  .facebook {
+    padding: 0px 15px 0px 10px;
+  }
+
+  .prom2020 {
+    width: 35%;
   }
 }
 
@@ -253,6 +290,18 @@
   }
 
   .footer {
+    display: none;
+  }
+
+  .facebook {
+    padding: 0px 5px 0px 5px;
+  }
+
+  .navigation {
+    justify-content: space-around;
+  }
+
+  .prom2020 {
     display: none;
   }
 }

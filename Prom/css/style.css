@@ -243,8 +243,7 @@
 
 .facebook {
    display: inline-block;
-   margin-left: 25px;
-
+   padding: 0px 175px 0px 25px;
 }
 
 .facebook a i {
@@ -255,7 +254,6 @@
 
 .play_market {
    display: inline-block;
-   margin-left: 175px;
 }
 
 .app_store {
