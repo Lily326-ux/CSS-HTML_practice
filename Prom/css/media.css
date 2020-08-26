@@ -38,6 +38,9 @@
     margin-left: 30px;
  }
 
+ .in_one_line {
+   text-align: center;
+ }
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
@@ -66,9 +69,12 @@
     font-size: 11px;
   }
 
-
   .footer ul:nth-last-child(2) {
      margin-left: 40px;
+  }
+
+  .in_one_line {
+    text-align: center;
   }
 
   .prom2020 {
@@ -115,8 +121,9 @@
     padding: 0px 78px 0px 10px;
   }
 
-  .in_one_line ul:first-child {
-    margin-left: px;
+
+  .in_one_line {
+   text-align: center;
   }
 
   .in_one_line ul:nth-child(4) {
