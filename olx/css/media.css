@@ -1,0 +1,9 @@
+@media (max-width:991px) and (min-width:768px) {
+  .language {
+    display: none;
+  }
+
+  .right_nav {
+    flex-basis: 75%;
+  }
+}
