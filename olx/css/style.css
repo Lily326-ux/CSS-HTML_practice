@@ -2,6 +2,7 @@
    --header_clr:#002f34;
    --white_clr:white;
    --gray_clr:#7f9799;
+   --gray_font:#f2f4f5;
 }
 
 .bg_clr {
@@ -98,4 +99,50 @@
 .body_bgc {
    background-image: url("../img/photo_2020-08-31_19-52-06.jpg");
    height: 100vh;
+   display: flex;
+   align-items: center;
+}
+
+.search_header {
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   width:1100px;
+   padding: 40px 0px 40px 0px;
+   background-color: var(--gray_font);
+}
+
+.ad form p {
+   color: black;
+}
+
+.ad form p input{
+   padding: 25px 0px 25px 15px;
+   width: 400px;
+   font-size: 16px;
+   border: none;
+   outline: none;
+   font-weight: bold;
+}
+
+.search_city p input{
+   padding: 25px 0px 25px 15px;
+   width: 300px;
+   font-size: 16px;
+   border: none;
+   outline: none;
+}
+
+.search p input{
+  padding: 25px 0px 25px 20px;
+  width: 100px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.search input:hover {
+   color: var(--white_clr);
+   background-color: var(--header_clr);
 }
