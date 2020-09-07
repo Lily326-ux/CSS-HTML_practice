@@ -125,6 +125,12 @@
    font-weight: bold;
 }
 
+.search_city p i {
+  text-decoration:
+  padding:25px 0px 25px 5px;
+  background-color:var(white_clr);
+}
+
 .search_city p input{
    padding: 25px 0px 25px 15px;
    width: 300px;
