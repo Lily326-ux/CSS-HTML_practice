@@ -51,7 +51,6 @@
 }
 
 .icon_heart {
-   /*padding-left: 40px;*/
    font-size: 21px;
 }
 
@@ -61,7 +60,6 @@
 }
 
 .icon_human {
-   /*padding-left: 40px;*/
    font-size: 21px;
 }
 
@@ -99,8 +97,11 @@
 .body_bgc {
    background-image: url("../img/photo_2020-08-31_19-52-06.jpg");
    height: 100vh;
+}
+
+.main_content {
    display: flex;
-   align-items: center;
+   flex-direction: column;
 }
 
 .search_header {
@@ -140,15 +141,36 @@
 }
 
 .search p input{
-  padding: 25px 0px 25px 20px;
-  width: 100px;
-  font-size: 16px;
-  border: none;
-  outline: none;
-  font-weight: bold;
+   padding: 25px 0px 25px 20px;
+   width: 100px;
+   font-size: 16px;
+   border: none;
+   outline: none;
+   font-weight: bold;
+   margin-left: 2px;
 }
 
 .search input:hover {
    color: var(--white_clr);
    background-color: var(--header_clr);
+}
+
+.main_categories {
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   background-color: var(--white_clr);
+   width: 1100px;
+   padding-top: 55px;
+   color: var(--header_clr);
+   font-weight: 900px;
+}
+
+.title {
+   font-size: 30px;
+   padding-bottom: 50px;
+}
+
+.icon_nav img {
+   width: 90px;
 }
