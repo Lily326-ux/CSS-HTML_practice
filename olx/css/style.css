@@ -107,19 +107,18 @@
 .search_header {
    display: flex;
    justify-content: center;
+   align-items: center;
    margin: 0 auto;
    width:1100px;
    padding: 40px 0px 40px 0px;
    background-color: var(--gray_font);
+   margin-top: 100px;
+
 }
 
-.ad form p {
-   color: black;
-}
-
-.ad form p input{
+.ad  p input{
    padding: 25px 0px 25px 15px;
-   width: 400px;
+   width: 550px;
    font-size: 16px;
    border: none;
    outline: none;
@@ -127,17 +126,20 @@
 }
 
 .search_city p i {
-  text-decoration:
+  position: relative;
+  left:15px;
   padding:25px 0px 25px 5px;
   background-color:var(white_clr);
 }
 
+
 .search_city p input{
-   padding: 25px 0px 25px 15px;
+   padding: 25px 0px 25px 45px;
    width: 300px;
    font-size: 16px;
    border: none;
    outline: none;
+   margin-left: -19px;
 }
 
 .search p input{
@@ -151,13 +153,13 @@
 }
 
 .search input:hover {
-   color: var(--white_clr);
    background-color: var(--header_clr);
 }
 
 .main_categories {
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+   align-items: center;
    margin: 0 auto;
    background-color: var(--white_clr);
    width: 1100px;
@@ -171,6 +173,36 @@
    padding-bottom: 50px;
 }
 
+.icon_navigation {
+   display: inline-flex;
+   width: 100%;
+   justify-content: space-around;
+}
+
 .icon_nav img {
    width: 90px;
+}
+
+.icon_nav p {
+  color: var(--header_clr);
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.icon_nav p:hover {
+  color: var(--white_clr);
+  background-color: var(--header_clr);
+  text-align: center;
+}
+
+.icon_nav_row2 {
+  padding-top: 40px;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.display_h{
+  opacity: 0;
 }
