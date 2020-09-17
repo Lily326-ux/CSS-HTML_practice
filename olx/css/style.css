@@ -3,11 +3,13 @@
    --white_clr:white;
    --gray_clr:#7f9799;
    --gray_font:#f2f4f5;
+   --light_blue:#CBF7EE;
+   --light_gray_heart:#c6c6c6;
 }
 
 .bg_clr {
-  background-color: var(--header_clr);
-  height: 72px;
+   background-color: var(--header_clr);
+   height: 72px;
 }
 
 .container {
@@ -116,22 +118,21 @@
 
 }
 
-.ad  p input{
+.advertising  p input {
+   color: var(--header_clr);
    padding: 25px 0px 25px 15px;
    width: 550px;
    font-size: 16px;
    border: none;
    outline: none;
-   font-weight: bold;
 }
 
 .search_city p i {
-  position: relative;
-  left:15px;
-  padding:25px 0px 25px 5px;
-  background-color:var(white_clr);
+   position: relative;
+   left:15px;
+   padding:25px 0px 25px 5px;
+   background-color:var(white_clr);
 }
-
 
 .search_city p input{
    padding: 25px 0px 25px 45px;
@@ -143,8 +144,9 @@
 }
 
 .search p input{
-   padding: 25px 0px 25px 20px;
-   width: 100px;
+   color: var(--header_clr);
+   padding: 25px 0px 25px 25px;
+   width: 90px;
    font-size: 16px;
    border: none;
    outline: none;
@@ -153,6 +155,7 @@
 }
 
 .search input:hover {
+   color: var(--white_clr);
    background-color: var(--header_clr);
 }
 
@@ -164,13 +167,15 @@
    background-color: var(--white_clr);
    width: 1100px;
    padding-top: 55px;
+   padding-bottom: 55px;
    color: var(--header_clr);
    font-weight: 900px;
 }
 
-.title {
+.title_text {
    font-size: 30px;
    padding-bottom: 50px;
+   text-align: center;
 }
 
 .icon_navigation {
@@ -184,25 +189,108 @@
 }
 
 .icon_nav p {
-  color: var(--header_clr);
-  font-weight: bold;
-  font-size: 14px;
-  text-align: center;
+   color: var(--header_clr);
+   font-weight: bold;
+   font-size: 14px;
+   text-align: center;
 }
 
 .icon_nav p:hover {
-  color: var(--white_clr);
-  background-color: var(--header_clr);
-  text-align: center;
+   color: var(--white_clr);
+   background-color: var(--header_clr);
+   text-align: center;
 }
 
 .icon_nav_row2 {
-  padding-top: 40px;
-  display: inline-flex;
-  width: 100%;
-  justify-content: space-around;
+   padding-top: 40px;
+   display: inline-flex;
+   width: 100%;
+   justify-content: space-around;
 }
 
-.display_h{
-  opacity: 0;
+.display_hidden{
+   opacity: 0;
+   width: 90px;
+   height: 90px;
+}
+
+.wrapper_VIP_ad_cntnt {
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   width: 1100px;
+   background-color: var(--gray_font);
+   padding-bottom: 55px;
+}
+
+.VIP_ad_content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding-top: 55px;
+   padding-bottom: 55px;
+   background-color:var(--light_blue);
+   width: 1050px;
+   margin: 0 auto;
+}
+
+.icon_nav_VIP {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 30px;
+}
+
+.icon_VIP {
+   background-color: var(--white_clr);
+   padding: 15px 15px 0px 15px;
+   border-radius: 4px;
+   margin-left: 15px;
+}
+
+.icon_VIP img{
+   height: 140px;
+   padding-bottom: 10px;
+}
+
+.icon_VIP:last-child {
+   margin-right: 15px;
+}
+
+.icon_VIP a {
+   text-decoration: none;
+}
+
+.icon_VIP a p {
+   color: var(--header_clr);
+   font-size: 17px;
+}
+
+.icon_VIP a p:hover {
+   color: var(--white_clr);
+   background-color: var(--header_clr);
+}
+
+.data_price  p {
+   padding-top: 35px;
+   color: var(--header_clr);
+   font-size: 14px;
+   padding-bottom: 6px;
+}
+
+.data_price  h5 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 17px;
+   padding-bottom: 15px;
+}
+
+.data_price  h5 a i {
+   font-size: 25px;
+   color: var(--light_gray_heart);
+}
+
+.data_price  h5 a i:hover {
+   color: black;
 }
