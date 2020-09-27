@@ -1,9 +1,69 @@
+@media (min-width:1141px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width:1140px) and (min-width:992px) {
+  .post_advertisement input {
+    width: 185px;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
 @media (max-width:991px) and (min-width:768px) {
+  .container {
+    width: 85%;
+  }
   .language {
     display: none;
   }
-
   .right_nav {
     flex-basis: 75%;
   }
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width:767px) and (min-width:576px) {
+   .logo a img {
+     width: 85px;
+   }
+  .post_advertisement input {
+    width: 170px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .language {
+    display: none;
+  }
+  .icon_heart {
+     font-size: 16px;
+  }
+  .icon_human{
+    font-size: 16px;
+  }
+  .right_nav {
+    flex-basis: 78%;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width:575px) and (min-width:320px) {
+  .right_nav {
+    display: none;
+  }
+
+}
+
+@media (max-width:319px) {
+  .right_nav {
+    display: none;
+  }
+
 }
