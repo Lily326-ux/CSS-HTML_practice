@@ -96,6 +96,10 @@
    border: 5px solid var(--white_clr);
 }
 
+.burger-menu {
+   position: relative;
+}
+
 .burger-menu_toggle:checked ~ .burger-menu_content {
    display: block;
 }
@@ -110,16 +114,19 @@
 
 .burger-menu_content {
    display: none;
-   background-color: var(--gray_clr);
+   background-color: var(--light_blue);
+   position: absolute;
+   top: 63px;
 }
 
 .burger-menu_content_item li {
    list-style: none;
+   padding:7px;
 }
 
 .burger-menu_content_item li a {
    text-decoration: none;
-   color: var(--white_clr);
+   color: var(--header_clr);
    font-size: 20px;
 }
 
@@ -138,14 +145,14 @@
 }
 
 .post-advertisement input {
-  color: var(--header_clr);
-  background-color: var(--white_clr);
-  font-weight: bold;
-  font-size: 13px;
-  border-radius: 5px;
-  height: 40px;
-  width: 120px;
-  outline: none;
+   color: var(--header_clr);
+   background-color: var(--white_clr);
+   font-weight: bold;
+   font-size: 13px;
+   border-radius: 5px;
+   height: 40px;
+   width: 120px;
+   outline: none;
 }
 
 .post-advertisement input:hover {
@@ -223,7 +230,7 @@
    padding-top: 55px;
    padding-bottom: 55px;
    color: var(--header_clr);
-   font-weight: 900px;
+   font-weight: bold;
 }
 
 .title_text {
@@ -262,10 +269,67 @@
    justify-content: space-around;
 }
 
-.display_hidden{
+.display_hidden {
    opacity: 0;
    width: 90px;
    height: 90px;
+}
+
+.main_categories_burger-menu {
+   position: relative;
+}
+
+.main_categories_burger-menu_toggle:checked ~ .main_categories_burger-menu_content {
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   margin-left: -9px;
+}
+
+.main_categories_burger-menu_toggle {
+   width: 50px;
+   height: 50px;
+   opacity: 0;
+   cursor: pointer;
+   position: absolute;
+}
+
+.main_categories_burger-menu_line {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 50px;
+   height: 50px;
+}
+
+.main_categories_burger-menu_line_item {
+   width: 50px;
+   height: 10px;
+   background-color: var(--header_clr);
+}
+
+.main_categories_burger-menu_content {
+   display: none;
+   position: absolute;
+   background-color: var(--white_clr);
+   padding: 10px 5px 10px 15px;
+}
+
+.icon_nav2 img {
+   width: 70px;
+}
+
+.icon_nav2 p {
+   color: var(--header_clr);
+   font-weight: bold;
+   font-size: 12px;
+   text-align: center;
+}
+
+.icon_nav2 p:hover {
+   color: var(--white_clr);
+   background-color: var(--header_clr);
+   text-align: center;
 }
 
 .wrapper_VIP_ad_cntnt {

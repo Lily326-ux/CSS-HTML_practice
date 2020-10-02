@@ -2,6 +2,9 @@
   .burger-menu {
     display: none;
   }
+  .main_categories_burger-menu {
+    display: none;
+  }
 }
 
 @media (max-width:1140px) and (min-width:992px) {
@@ -10,6 +13,33 @@
   }
   .burger-menu {
     display: none;
+  }
+  .search_header {
+    width: 970px;
+  }
+  .advertising p input {
+    width: 475px;
+  }
+  .search_city p input {
+    width: 275px;
+  }
+  .main_categories {
+    width: 970px;
+  }
+  .icon_nav img {
+    width: 78px;
+  }
+  .main_categories_burger-menu {
+    display: none;
+  }
+  .wrapper_VIP_ad_cntnt {
+    width: 970px;
+  }
+  .VIP_ad_content {
+    width: 920px;
+  }
+  .icon_VIP img {
+    height: 115px;
   }
 }
 
@@ -26,10 +56,76 @@
   .burger-menu {
     display: none;
   }
+  .search_header {
+    width: 745px;
+  }
+  .advertising p input {
+    width: 315px;
+  }
+  .search_city p input {
+    width: 210px;
+  }
+  .main_categories {
+    width: 745px;
+  }
+  .title_text  {
+    padding-bottom: 35px;
+    font-size: 27px;
+  }
+  .icon_nav img {
+    width: 72px;
+  }
+  .icon_nav p {
+    font-size: 12px;
+  }
+  .icon_navigation {
+    justify-content: space-evenly;
+  }
+  .icon_nav_row2 {
+    justify-content: space-evenly;
+  }
+  .main_categories_burger-menu {
+    display: none;
+  }
+  .wrapper_VIP_ad_cntnt {
+    width: 745px;
+    padding-bottom: 35px;
+  }
+  .VIP_ad_content {
+    width: 695px;
+  }
+  .icon_VIP {
+    padding: 10px 10px 0px 10px;
+    margin-left: 10px;
+  }
+  .icon_VIP img {
+    height: 95px;
+  }
+  .icon_VIP a p {
+    font-size: 14px;
+  }
+  .icon_VIP:last-child {
+    margin-right: 10px;
+  }
+  .data_price p {
+    font-size: 12px;
+    padding-top: 25px;
+  }
+  .data_price h5 {
+    font-size: 14px;
+    padding-bottom: 12px;
+  }
+  .data_price h5 a i{
+    font-size: 20px;
+  }
+ .all_advertisement input {
+    margin-top: 35px;
+    width: 190px;
+ }
 }
 
 @media (max-width:767px) and (min-width:576px) {
-   .logo a img {
+  .logo a img {
      width: 85px;
    }
   .post_advertisement input {
@@ -52,18 +148,133 @@
   .burger-menu {
     display: none;
   }
+  .search_header {
+    width: 545px;
+  }
+  .advertising p input {
+    width: 295px;
+  }
+  .search_city p input {
+    width: 150px;
+  }
+  .search p input {
+    display: none;
+  }
+  .main_categories {
+    width: 545px;
+  }
+  .icon_navigation {
+    display: none;
+  }
+  .icon_nav_row2 {
+    display: none;
+  }
+  .wrapper_VIP_ad_cntnt {
+    width: 545px;
+    padding-bottom: 35px;
+  }
+  .VIP_ad_content {
+    width: 495px;
+  }
+  .title_text{
+    padding-bottom: 35px;
+  }
+  .icon_VIP {
+    padding: 10px 7px 0px 7px;
+    margin-left: 10px;
+  }
+  .icon_VIP img {
+    height: 66px;
+  }
+  .icon_VIP a p {
+    font-size: 12px;
+  }
+  .icon_VIP:last-child {
+    margin-right: 8px;
+  }
+  .data_price p {
+    font-size: 10px;
+    padding-top: 25px;
+  }
+  .data_price h5 {
+    font-size: 12px;
+    padding-bottom: 12px;
+  }
+  .data_price h5 a i{
+    font-size: 17px;
+  }
+ .all_advertisement input {
+    margin-top: 35px;
+    width: 190px;
 }
 
 @media (max-width:575px) and (min-width:320px) {
   .right_nav {
     display: none;
   }
-
+  .header_content {
+    flex-direction: row-reverse;
+  }
+  .search_header {
+    width: 350px;
+    align-items: baseline;
+    padding: 26px 0px 26px 0px;
+  }
+  .advertising p input {
+    width: 190px;
+    font-size: 13px;
+    padding: 25px 0px 25px 8px;
+  }
+  .search_city p input {
+    width: 75px;
+    font-size: 13px;
+    padding: 25px 0px 25px 35px;
+  }
+ .search_city p i {
+   left: 10px;
+  }
+  .search p input {
+    display: none;
+  }
+  .main_categories {
+    width: 350px;
+  }
+  .icon_navigation {
+    display: none;
+  }
+  .icon_nav_row2 {
+    display: none;
+  }
+  .wrapper_VIP_ad_cntnt {
+    width: 350px;
+    padding-bottom: 35px;
+  }
+  .VIP_ad_content {
+    width: 300px;
+  }
 }
 
 @media (max-width:319px) {
   .right_nav {
     display: none;
   }
-
+  .header_content {
+    flex-direction: row-reverse;
+  }
+  .search p input {
+    display: none;
+  }
+  .icon_navigation {
+    display: none;
+  }
+  .icon_nav_row2 {
+    display: none;
+  }
+  .search_header {
+    width: 320px;
+    align-items: baseline;
+  }
+  .main_categories {
+    width: 320px;
+  }
 }
