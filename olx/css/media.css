@@ -1,51 +1,51 @@
 @media (min-width:1141px) {
   .burger-menu {
-    display: none;
+     display: none;
   }
   .main_categories_burger-menu {
-    display: none;
+     display: none;
   }
 }
 
 @media (max-width:1140px) and (min-width:992px) {
   .post_advertisement input {
-    width: 185px;
+     width: 185px;
   }
   .burger-menu {
-    display: none;
+     display: none;
   }
   .search_header {
-    width: 970px;
+     width: 970px;
   }
   .advertising p input {
-    width: 475px;
+     width: 475px;
   }
   .search_city p input {
-    width: 275px;
+     width: 275px;
   }
   .main_categories {
-    width: 970px;
+     width: 970px;
   }
   .icon_nav img {
-    width: 78px;
+     width: 78px;
   }
   .main_categories_burger-menu {
-    display: none;
+     display: none;
   }
   .wrapper_VIP_ad_cntnt {
-    width: 970px;
+     width: 970px;
   }
   .VIP_ad_content {
-    width: 920px;
+     width: 920px;
   }
   .icon_VIP img {
-    height: 115px;
+     height: 115px;
   }
   .about-olx {
-    width: 970px;
+     width: 970px;
   }
   .popular-sections {
-    width: 970px;
+     width: 970px;
   }
   .sections-OLX img {
      padding-bottom: 20px;
@@ -63,127 +63,127 @@
      width: 970px;
   }
   .line {
-    width: 970px;
+     width: 970px;
   }
 }
 
 @media (max-width:991px) and (min-width:768px) {
   .container {
-    width: 85%;
+     width: 85%;
   }
   .language {
-    display: none;
+     display: none;
   }
   .right_nav {
-    flex-basis: 75%;
+     flex-basis: 75%;
   }
   .burger-menu {
-    display: none;
+     display: none;
   }
   .search_header {
-    width: 745px;
+     width: 745px;
   }
   .advertising p input {
-    width: 315px;
+     width: 315px;
   }
   .search_city p input {
-    width: 210px;
+     width: 210px;
   }
   .main_categories {
-    width: 745px;
+     width: 745px;
   }
   .title_text  {
-    padding-bottom: 35px;
-    font-size: 27px;
+     padding-bottom: 35px;
+     font-size: 27px;
   }
   .icon_nav img {
-    width: 72px;
+     width: 72px;
   }
   .icon_nav p {
-    font-size: 12px;
+     font-size: 12px;
   }
   .icon_navigation {
-    justify-content: space-evenly;
+     justify-content: space-evenly;
   }
   .icon_nav_row2 {
-    justify-content: space-evenly;
+     justify-content: space-evenly;
   }
   .main_categories_burger-menu {
-    display: none;
+     display: none;
   }
   .wrapper_VIP_ad_cntnt {
-    width: 745px;
-    padding-bottom: 35px;
+     width: 745px;
+     padding-bottom: 35px;
   }
   .VIP_ad_content {
-    width: 695px;
+     width: 695px;
   }
   .icon_VIP {
-    padding: 10px 10px 0px 10px;
-    margin-left: 10px;
+     padding: 10px 10px 0px 10px;
+     margin-left: 10px;
   }
   .icon_VIP img {
-    height: 95px;
+     height: 95px;
   }
   .icon_VIP a p {
-    font-size: 14px;
+     font-size: 14px;
   }
   .icon_VIP:last-child {
-    margin-right: 10px;
+     margin-right: 10px;
   }
   .data_price p {
-    font-size: 12px;
-    padding-top: 25px;
+     font-size: 12px;
+     padding-top: 25px;
   }
   .data_price h5 {
-    font-size: 14px;
-    padding-bottom: 12px;
+     font-size: 14px;
+     padding-bottom: 12px;
   }
   .data_price h5 a i{
-    font-size: 20px;
+     font-size: 20px;
   }
   .all_advertisement input {
-    margin-top: 35px;
-    width: 190px;
+     margin-top: 35px;
+     width: 190px;
   }
   .about-olx {
-   width: 745px;
+     width: 745px;
   }
   .about-olx img {
-   height: 55px;
+     height: 55px;
   }
   .about-olx p {
-   font-size: 14px;
+     font-size: 14px;
   }
   .popular-sections {
-   width: 745px;
-   padding-top: 30px;
-   height: 280px;
+     width: 745px;
+     padding-top: 30px;
+     height: 280px;
   }
   .sections-OLX img {
-    padding-bottom: 18px;
-    height: 110px;
+     padding-bottom: 18px;
+     height: 110px;
   }
   .sections-OLX p {
-    font-size: 12px;
+     font-size: 12px;
   }
   .request-OLX p {
-    font-size: 12px;
+     font-size: 12px;
   }
   .magnifying {
-   width: 120px;
+     width: 120px;
   }
   .footer {
      width: 745px;
   }
   .line {
-    width: 745px;
+     width: 745px;
   }
   .nav-box_text li {
-    font-size: 14px;
+     font-size: 14px;
   }
   .apps_nav img {
-    width: 110px;
+     width: 110px;
   }
   .flag_box li {
      padding: 15px 10px 0px 0px;
@@ -199,104 +199,104 @@
      width: 85px;
    }
   .post_advertisement input {
-    width: 170px;
-    height: 45px;
-    font-size: 15px;
+     width: 170px;
+     height: 45px;
+     font-size: 15px;
   }
   .language {
-    display: none;
+     display: none;
   }
   .icon_heart {
      font-size: 16px;
   }
   .icon_human{
-    font-size: 16px;
+     font-size: 16px;
   }
   .right_nav {
-    flex-basis: 78%;
+     flex-basis: 78%;
   }
   .burger-menu {
-    display: none;
+     display: none;
   }
   .search_header {
-    width: 545px;
+     width: 545px;
   }
   .advertising p input {
-    width: 295px;
+     width: 295px;
   }
   .search_city p input {
-    width: 150px;
+     width: 150px;
   }
   .search p input {
-    display: none;
+     display: none;
   }
   .main_categories {
-    width: 545px;
-    padding-top: 40px;
+     width: 545px;
+     padding-top: 40px;
   }
   .icon_navigation {
-    display: none;
+     display: none;
   }
   .icon_nav_row2 {
-    display: none;
+     display: none;
   }
   .wrapper_VIP_ad_cntnt {
-    width: 545px;
-    padding-bottom: 35px;
+     width: 545px;
+     padding-bottom: 35px;
   }
   .VIP_ad_content {
-    width: 495px;
+     width: 495px;
   }
   .title_text  {
-    padding-bottom: 35px;
-    font-size: 22px;
+     padding-bottom: 35px;
+     font-size: 22px;
   }
   .icon_VIP {
-    padding: 10px 7px 0px 7px;
-    margin-left: 10px;
+     padding: 10px 7px 0px 7px;
+     margin-left: 10px;
   }
   .icon_VIP img {
-    height: 66px;
+     height: 66px;
   }
   .icon_VIP a p {
-    font-size: 12px;
+     font-size: 12px;
   }
   .icon_VIP:last-child {
-    margin-right: 8px;
+     margin-right: 8px;
   }
   .data_price p {
-    font-size: 10px;
-    padding-top: 25px;
+     font-size: 10px;
+     padding-top: 25px;
   }
   .data_price h5 {
-    font-size: 12px;
-    padding-bottom: 12px;
+     font-size: 12px;
+     padding-bottom: 12px;
   }
   .data_price h5 a i{
-    font-size: 17px;
+     font-size: 17px;
   }
  .all_advertisement input {
-    margin-top: 35px;
-    width: 190px;
+     margin-top: 35px;
+     width: 190px;
   }
   .about-olx {
-    width: 545px;
-    height: 330px;
+     width: 545px;
+     height: 330px;
   }
   .about-olx img {
-    height: 50px;
+     height: 50px;
   }
   .about-olx p {
-    font-size: 12px;
+     font-size: 12px;
   }
   .navigatoin-olx i {
-    font-size: 35px;
-    padding: 20px 10px 10px 10px;
+     font-size: 35px;
+     padding: 20px 10px 10px 10px;
   }
   .popular-sections {
-    width: 545px;
-    height: 230px;
-    padding-top: 25px;
+     width: 545px;
+     height: 230px;
+     padding-top: 25px;
   }
   .sections-OLX img {
      padding-bottom: 18px;
@@ -309,20 +309,20 @@
      font-size: 10px;
   }
   .magnifying {
-    width: 90px;
+     width: 90px;
   }
   .footer {
      width: 545px;
      padding-top: 40px;
   }
   .line {
-    width: 545px;
+     width: 545px;
   }
   .nav-box_text li {
-    font-size: 12px;
+     font-size: 12px;
   }
   .apps_nav img {
-    width: 100px;
+     width: 100px;
   }
   .flag_box li {
      padding: 12px 10px 0px 0px;
@@ -335,104 +335,104 @@
 
 @media (max-width:575px) and (min-width:320px) {
   .right_nav {
-    display: none;
+     display: none;
   }
   .header_content {
-    flex-direction: row-reverse;
+     flex-direction: row-reverse;
   }
   .search_header {
-    width: 315px;
-    align-items: baseline;
-    padding: 20px 0px 20px 0px;
-    margin-top: 50px;
+     width: 315px;
+     align-items: baseline;
+     padding: 20px 0px 20px 0px;
+     margin-top: 50px;
   }
   .advertising p input {
-    width: 187px;
-    font-size: 13px;
-    padding: 20px 0px 20px 3px;
+     width: 187px;
+     font-size: 13px;
+     padding: 20px 0px 20px 3px;
   }
   .search_city p input {
-    width: 72px;
-    font-size: 13px;
-    padding: 20px 3px 20px 30px;
+     width: 72px;
+     font-size: 13px;
+     padding: 20px 3px 20px 30px;
   }
   .search_city p i {
-   left: 10px;
+     left: 10px;
   }
   .search p input {
-    display: none;
+     display: none;
   }
   .main_categories {
-    width: 315px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+     width: 315px;
+     padding-top: 30px;
+     padding-bottom: 30px;
   }
   .title_text  {
-    padding-bottom: 25px;
-    font-size: 19px;
+     padding-bottom: 25px;
+     font-size: 19px;
   }
   .icon_navigation {
-    display: none;
+     display: none;
   }
   .icon_nav_row2 {
-    display: none;
+     display: none;
   }
   .wrapper_VIP_ad_cntnt {
-    width: 315px;
-    padding-bottom: 35px;
+     width: 315px;
+     padding-bottom: 35px;
   }
   .VIP_ad_content {
-    width: 265px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+     width: 265px;
+     padding-top: 35px;
+     padding-bottom: 35px;
   }
   .icon_nav_VIP {
-    flex-direction: column;
-    padding-top: 0px;
+     flex-direction: column;
+     padding-top: 0px;
   }
   .icon_VIP:last-child {
-    margin-right: 0px;
+     margin-right: 0px;
   }
   .icon_VIP {
-    margin-left: 0px;
-    margin-bottom: 10px;
+     margin-left: 0px;
+     margin-bottom: 10px;
   }
   .icon_VIP img {
-    height: 133px;
-    padding-bottom: 8px;
+     height: 133px;
+     padding-bottom: 8px;
   }
   .icon_VIP a p{
-    font-size: 11px;
-    height: 30px;
+     font-size: 11px;
+     height: 30px;
   }
   .data_price p {
-    font-size: 12px;
-    padding-top: 20px;
+     font-size: 12px;
+     padding-top: 20px;
   }
   .data_price h5 {
-    font-size: 13px;
+     font-size: 13px;
   }
   .data_price h5 a i{
-    font-size: 18px;
+     font-size: 18px;
   }
   .about-olx {
-    width: 315px;
-    height: 320px;
+     width: 315px;
+     height: 320px;
   }
   .about-olx img {
-    height: 35px;
+     height: 35px;
   }
   .about-olx p {
-    font-size: 10px;
+     font-size: 10px;
   }
   .navigatoin-olx i {
-    font-size: 30px;
-    padding: 15px 10px 10px 10px;
+     font-size: 30px;
+     padding: 15px 10px 10px 10px;
   }
   .popular-sections {
-    width: 315px;
-    height: 235px;
-    padding-top: 20px;
+     width: 315px;
+     height: 235px;
+     padding-top: 20px;
   }
   .sections-OLX img {
      padding-bottom: 18px;
@@ -445,7 +445,7 @@
      font-size: 9px;
   }
   .magnifying {
-    width: 60px;
+     width: 60px;
   }
   .footer {
      width: 315px;
@@ -453,19 +453,19 @@
      padding-top: 40px;
   }
   .line {
-    width: 315px;
+     width: 315px;
   }
   .nav-box {
-    padding: 0px 6px;
+     padding: 0px 6px;
   }
   .nav-box_text li {
-    font-size: 9px;
+     font-size: 9px;
   }
   .apps_nav {
-    padding: 0px 6px;
+     padding: 0px 6px;
   }
   .apps_nav img {
-    width: 70px;
+     width: 70px;
   }
   .flag_box li {
      padding: 10px 8px 0px 0px;

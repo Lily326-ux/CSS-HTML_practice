@@ -249,7 +249,7 @@
 }
 
 .icon_nav {
-  text-align: center;
+   text-align: center;
 }
 
 .icon_nav img {
@@ -324,9 +324,9 @@
    padding: 7px 6px 7px 10px;
 }
 .icon_nav2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .icon_nav2 img {
@@ -430,16 +430,16 @@
 }
 
 .all_advertisement input {
-  color: var(--header_clr);
-  background-color: var(--white_clr);
-  font-weight: bold;
-  font-size: 17px;
-  border: 2px solid var(--header_clr);
-  border-radius: 4px;
-  height: 50px;
-  width: 200px;
-  margin-top: 40px;
-  cursor: pointer;
+   color: var(--header_clr);
+   background-color: var(--white_clr);
+   font-weight: bold;
+   font-size: 17px;
+   border: 2px solid var(--header_clr);
+   border-radius: 4px;
+   height: 50px;
+   width: 200px;
+   margin-top: 40px;
+   cursor: pointer;
 }
 
 .all_advertisement input:hover {
@@ -470,7 +470,7 @@
 }
 
 .navigatoin-olx a {
-  text-decoration: none;
+   text-decoration: none;
 }
 
 .navigatoin-olx i {
@@ -528,9 +528,9 @@
 }
 
 .request-OLX a{
-  text-decoration: none;
-  color: black;
-  word-spacing: 3px;
+   text-decoration: none;
+   color: black;
+   word-spacing: 3px;
 }
 
 .line {
@@ -552,7 +552,7 @@
 }
 
 .nav-box {
-  padding: 0px 20px;
+   padding: 0px 20px;
 }
 
 .nav-box_text li{
