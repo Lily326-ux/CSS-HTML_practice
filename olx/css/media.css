@@ -41,6 +41,30 @@
   .icon_VIP img {
     height: 115px;
   }
+  .about-olx {
+    width: 970px;
+  }
+  .popular-sections {
+    width: 970px;
+  }
+  .sections-OLX img {
+     padding-bottom: 20px;
+  }
+  .sections-OLX p {
+     font-size: 14px;
+  }
+  .request-OLX img {
+     padding-bottom: 20px;
+  }
+  .request-OLX p {
+     font-size: 14px;
+  }
+  .footer {
+     width: 970px;
+  }
+  .line {
+    width: 970px;
+  }
 }
 
 @media (max-width:991px) and (min-width:768px) {
@@ -118,10 +142,56 @@
   .data_price h5 a i{
     font-size: 20px;
   }
- .all_advertisement input {
+  .all_advertisement input {
     margin-top: 35px;
     width: 190px;
- }
+  }
+  .about-olx {
+   width: 745px;
+  }
+  .about-olx img {
+   height: 55px;
+  }
+  .about-olx p {
+   font-size: 14px;
+  }
+  .popular-sections {
+   width: 745px;
+   padding-top: 30px;
+   height: 280px;
+  }
+  .sections-OLX img {
+    padding-bottom: 18px;
+    height: 110px;
+  }
+  .sections-OLX p {
+    font-size: 12px;
+  }
+  .request-OLX p {
+    font-size: 12px;
+  }
+  .magnifying {
+   width: 120px;
+  }
+  .footer {
+     width: 745px;
+  }
+  .line {
+    width: 745px;
+  }
+  .nav-box_text li {
+    font-size: 14px;
+  }
+  .apps_nav img {
+    width: 110px;
+  }
+  .flag_box li {
+     padding: 15px 10px 0px 0px;
+     font-size: 12px;
+  }
+  .free_app {
+     font-size: 13px;
+  }
 }
 
 @media (max-width:767px) and (min-width:576px) {
@@ -209,6 +279,58 @@
     margin-top: 35px;
     width: 190px;
   }
+  .about-olx {
+    width: 545px;
+    height: 330px;
+  }
+  .about-olx img {
+    height: 50px;
+  }
+  .about-olx p {
+    font-size: 12px;
+  }
+  .navigatoin-olx i {
+    font-size: 35px;
+    padding: 20px 10px 10px 10px;
+  }
+  .popular-sections {
+    width: 545px;
+    height: 230px;
+    padding-top: 25px;
+  }
+  .sections-OLX img {
+     padding-bottom: 18px;
+     height: 80px;
+  }
+  .sections-OLX p {
+     font-size: 10px;
+  }
+  .request-OLX p {
+     font-size: 10px;
+  }
+  .magnifying {
+    width: 90px;
+  }
+  .footer {
+     width: 545px;
+     padding-top: 40px;
+  }
+  .line {
+    width: 545px;
+  }
+  .nav-box_text li {
+    font-size: 12px;
+  }
+  .apps_nav img {
+    width: 100px;
+  }
+  .flag_box li {
+     padding: 12px 10px 0px 0px;
+     font-size: 10px;
+  }
+  .free_app {
+     font-size: 11px;
+  }
 }
 
 @media (max-width:575px) and (min-width:320px) {
@@ -230,7 +352,7 @@
     padding: 20px 0px 20px 3px;
   }
   .search_city p input {
-    width: 70px;
+    width: 72px;
     font-size: 13px;
     padding: 20px 3px 20px 30px;
   }
@@ -292,5 +414,64 @@
   }
   .data_price h5 a i{
     font-size: 18px;
+  }
+  .about-olx {
+    width: 315px;
+    height: 320px;
+  }
+  .about-olx img {
+    height: 35px;
+  }
+  .about-olx p {
+    font-size: 10px;
+  }
+  .navigatoin-olx i {
+    font-size: 30px;
+    padding: 15px 10px 10px 10px;
+  }
+  .popular-sections {
+    width: 315px;
+    height: 235px;
+    padding-top: 20px;
+  }
+  .sections-OLX img {
+     padding-bottom: 18px;
+     height: 60px;
+  }
+  .sections-OLX p {
+     font-size: 9px;
+  }
+  .request-OLX p {
+     font-size: 9px;
+  }
+  .magnifying {
+    width: 60px;
+  }
+  .footer {
+     width: 315px;
+     height: 260px;
+     padding-top: 40px;
+  }
+  .line {
+    width: 315px;
+  }
+  .nav-box {
+    padding: 0px 6px;
+  }
+  .nav-box_text li {
+    font-size: 9px;
+  }
+  .apps_nav {
+    padding: 0px 6px;
+  }
+  .apps_nav img {
+    width: 70px;
+  }
+  .flag_box li {
+     padding: 10px 8px 0px 0px;
+     font-size: 10px;
+  }
+  .free_app {
+     font-size: 9px;
   }
 }

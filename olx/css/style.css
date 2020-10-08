@@ -505,6 +505,10 @@
    background-color: var(--white_clr);
 }
 
+.sections-OLX {
+  padding: 0px 20px;
+}
+
 .sections-OLX img{
    padding-bottom: 25px;
 }
@@ -547,6 +551,10 @@
    padding-top: 55px;
 }
 
+.nav-box {
+  padding: 0px 20px;
+}
+
 .nav-box_text li{
    list-style-type: none;
    cursor: pointer;
@@ -574,4 +582,12 @@
    cursor: pointer;
    color: var(--gray_clr);
    font-size: 14px;
+}
+
+.apps_nav {
+   padding: 0px 20px;
+}
+
+.apps_nav a {
+   text-decoration: none;
 }
